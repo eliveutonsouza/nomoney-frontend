@@ -9,3 +9,17 @@
 </br>
 
 > This is your financial planning application.
+
+## Como Rodar o Projeto
+
+1. Instale as dependências
+
+```bash
+yarn
+```
+
+2. Execute o server do vite
+
+```bash
+yarn dev
+```
