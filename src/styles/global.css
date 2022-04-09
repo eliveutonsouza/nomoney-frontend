@@ -24,7 +24,7 @@ body, input, button {
 /* CLASSES BASICAS */
 
 .container {
-  width: calc(min(1440px, 90vw));
+  width: min(1440px, 90vw);
   margin: 0 auto;
 }
 

@@ -8,9 +8,11 @@ export const Main = styled.main`
 
 	.container {
 		padding: 3.12rem;
-		background-color: var(--bg-main);
+		background-image: url("/assets/main-app.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
 		box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.25);
-		backdrop-filter: blur(180px);
-		border-radius: 13.5px;
+		border-radius: 0.8rem;
 	}
 `
