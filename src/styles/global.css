@@ -1,5 +1,33 @@
+/* PALETA DE CORES */
+
+:root {
+	--color-primary: #16171A;
+	--color-secondary: #0D0E11;
+	--color-main: #0e0f11
+	--text-green: #3E9C36;
+	--white-500: #E6E6E6;
+	--white: #ffffff;
+}
+
+/* RESET */
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+body, input, button {
+	font-family: 'Inter', sans-serif;
+}
+
+/* CLASSES BASICAS */
+
+.container {
+  width: calc(min(1440px, 90vw));
+  margin: 0 auto;
+}
+
+h2 {
+	color: var(--text-green)
 }
