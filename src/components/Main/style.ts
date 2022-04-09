@@ -7,10 +7,9 @@ export const Main = styled.main`
 	height: 100vh;
 
 	.container {
-		padding: 3.12rem;
-		background-color: var(--bg-main);
+		padding: 3rem;
+		background-color: #0e0f11;
 		box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.25);
-		backdrop-filter: blur(180px);
-		border-radius: 13.5px;
+		border-radius: 0.8rem;
 	}
 `
