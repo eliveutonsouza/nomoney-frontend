@@ -1,7 +1,9 @@
 import styled from "@emotion/styled"
 
 export const Container = styled.div`
-	background: var(--color-secondary);
+	background-image: url("/assets/bg-home.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 100%;
-	height: 100vh;
 `
