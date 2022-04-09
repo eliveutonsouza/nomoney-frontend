@@ -10,6 +10,5 @@ export default function Home() {
 			<Header />
 			<Main />
 		</Styled.Container>
-
 	)
 }
